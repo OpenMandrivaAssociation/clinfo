@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 Name:		clinfo
 Summary:	Enumerates OpenCL platform and device properties
 Version:	3.0.21.02.21
