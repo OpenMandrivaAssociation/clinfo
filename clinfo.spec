@@ -1,11 +1,12 @@
 Name:		clinfo
 Summary:	Enumerates OpenCL platform and device properties
 Version:	3.0.21.02.21
-Release:	%mkrel 2
+Release:	1
 Group:		System/Configuration
 License:	CC0
 URL:		https://github.com/Oblomov/clinfo
 Source0:	https://github.com/Oblomov/clinfo/archive/%{version}/%{name}-%{version}.tar.gz
+
 BuildRequires:	pkgconfig(ocl-icd)
 
 %description
@@ -17,10 +18,10 @@ those provided by platform-specific extensions, trying not to crash on
 unsupported properties (e.g. 1.2 properties on 1.1 platforms).
 
 %prep
-%autosetup
+%autosetup -p1
 
 %build
-%make_build CFLAGS="%{optflags}"
+%make_build
 
 %install
 mkdir -p %{buildroot}%{_bindir} \
