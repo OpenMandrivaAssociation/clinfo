@@ -2,7 +2,7 @@
 
 Name:		clinfo
 Summary:	Enumerates OpenCL platform and device properties
-Version:	3.0.21.02.21
+Version:	3.0.23.01.25
 Release:	1
 Group:		System/Configuration
 License:	CC0
