@@ -3,7 +3,7 @@
 Name:		clinfo
 Summary:	Enumerates OpenCL platform and device properties
 Version:	3.0.23.01.25
-Release:	2
+Release:	3
 Group:		System/Configuration
 License:	CC0
 URL:		https://github.com/Oblomov/clinfo
