@@ -8,6 +8,7 @@ Group:		System/Configuration
 License:	CC0
 URL:		https://github.com/Oblomov/clinfo
 Source0:	https://github.com/Oblomov/clinfo/archive/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	pkgconfig(ocl-icd)
 
 %description
